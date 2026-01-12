@@ -1,0 +1,7 @@
+# Root directory for datasets and checkpoints
+root_path: "/path/to/your/root_path"
+
+# WandB configuration
+wandb:
+  pretrain_project: "efficient_atom_pretrain"
+  finetune_project: "efficient_atom_finetune"

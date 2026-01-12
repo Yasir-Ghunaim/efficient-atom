@@ -1,0 +1,18 @@
+__pycache__/
+dcgm/
+src/jmp.egg-info/
+lightning_logs/
+
+# Ignore Jupyter checkpoints 
+.ipynb_checkpoints*
+
+# Ignore scripts outputs
+*.out
+*.err
+
+wandb/
+*.png
+*.csv
+
+# Ignore extracted features
+my_scripts/**/*.pt
