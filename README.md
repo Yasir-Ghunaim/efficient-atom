@@ -1,7 +1,7 @@
-# On the Importance of Pretraining Data Alignment for Atomic Property Prediction
+# On the Importance of Pretraining Data Alignment for Atomic Property Prediction, TMLR 2026
 
 ## Introduction
-This repository is for the paper "On the Importance of Pretraining Data Alignment for Atomic Property Prediction", which introduces an efficient pretraining paradigm for atomic property prediction. Our work demonstrates that pretraining on a strategically selected, task-relevant dataset can achieve comparable or superior performance to large-scale datasets at a fraction of the computational cost. We also present the Chemical Similarity Index (CSI), inspired by Fréchet Inception Distance, to guide upstream data selection and significantly improve model efficiency.
+This repository is for our **TMLR (Transactions on Machine Learning Research)** paper "On the Importance of Pretraining Data Alignment for Atomic Property Prediction", which introduces an efficient pretraining paradigm for atomic property prediction. Our work demonstrates that pretraining on a strategically selected, task-relevant dataset can achieve comparable or superior performance to large-scale datasets at a fraction of the computational cost. We also present the Chemical Similarity Index (CSI), inspired by Fréchet Inception Distance, to guide upstream data selection and significantly improve model efficiency.
 
 
 ## Installation
@@ -153,3 +153,20 @@ The majority of JMP is CC-BY-NC licensed, as found in the `LICENSE` file. Howeve
 - Submitit is licensed under the MIT License.
 - Model implementations are based on the Open Catalyst Project and are licensed under the MIT License.
 - EMA implementation is based on the NeMo's implementation and is licensed under the Apache License 2.0.
+
+## Citation
+
+If you find this work useful, please cite our TMLR paper:
+
+```bibtex
+@article{
+ghunaim2026on,
+title={On the Importance of Pretraining Data Alignment for Atomic Property Prediction},
+author={Yasir M. Ghunaim and Hasan Abed Al Kader Hammoud and Bernard Ghanem},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2026},
+url={https://openreview.net/forum?id=jfD9BsrDTb},
+note={}
+}
+```
